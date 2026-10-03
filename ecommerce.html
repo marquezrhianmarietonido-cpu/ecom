@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rosé Beauty | Makeup & Beauty</title>
+
+    <link rel="stylesheet" href="ecommerce.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+
+            <!-- LOGO -->
+
+            <a href="#home" class="logo">
+                Rosé<span>Beauty</span>
+            </a>
+
+
+            <!-- NAVIGATION LINKS -->
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#products">Shop</a>
+                </li>
+
+                <li>
+                    <a href="#signin">Sign In</a>
+                </li>
+
+                <li>
+                    <a href="#signup">Sign Up</a>
+                </li>
+
+                <li>
+                    <a href="#inquiry">Contact</a>
+                </li>
+
+            </ul>
+
+
+            <!-- ================= TOP SEARCH BAR ================= -->
+
+            <div class="top-search">
+
+                <span>⌕</span>
+
+                <input
+                    type="text"
+                    id="productSearch"
+                    placeholder="Search products..."
+                    onkeyup="searchProducts()"
+                >
+
+            </div>
+
+
+            <!-- ================= CART ================= -->
+
+            <div class="cart">
+
+                🛍️
+
+                <span id="cartCount">0</span>
+
+            </div>
+
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- ================= HERO ================= -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+
+                <div class="hero-label">
+                    NEW BEAUTY COLLECTION 2026
+                </div>
+
+
+                <h1>
+
+                    Timeless beauty,
+
+                    <br>
+
+                    <span>made for you.</span>
+
+                </h1>
+
+
+                <p>
+
+                    Discover soft, effortless makeup made for
+                    everyday confidence and beautiful moments.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#products" class="primary-btn">
+                        Shop Collection →
+                    </a>
+
+                    <a href="#about" class="secondary-btn">
+                        Discover More
+                    </a>
+
+                </div>
+
+
+                <div class="hero-note">
+
+                    ♡ Cruelty-free
+
+                    &nbsp; • &nbsp;
+
+                    Everyday essentials
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="hero-visual">
+
+                <div class="pink-circle"></div>
+
+
+                <img
+                    src="images/makeup.jpg"
+                    alt="Rosé Beauty Makeup"
+                >
+
+
+                <div class="floating-card">
+
+                    <span>
+                        BEST SELLER
+                    </span>
+
+                    <strong>
+                        Rosé Lipstick
+                    </strong>
+
+                    <small>
+                        ₱299.00
+                    </small>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="about section">
+
+
+            <div class="section-heading">
+
+                <span>
+                    OUR STORY
+                </span>
+
+                <h2>
+
+                    Beauty should feel
+                    <em>effortless.</em>
+
+                </h2>
+
+            </div>
+
+
+
+            <div class="about-grid">
+
+
+                <div class="about-image">
+
+                    <img
+                        src="images/cover.jpg"
+                        alt="Beauty products"
+                    >
+
+
+                    <div class="experience-card">
+
+                        <strong>
+                            ♡
+                        </strong>
+
+                        <span>
+
+                            Made for<br>
+                            everyday beauty
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="about-text">
+
+
+                    <p class="about-lead">
+
+                        Welcome to
+                        <strong>Rosé Beauty</strong>
+                        — a modern makeup shop created
+                        for people who love simple and
+                        beautiful looks.
+
+                    </p>
+
+
+                    <p>
+
+                        Rosé Beauty offers carefully selected makeup
+                        essentials that are easy to use and
+                        perfect for everyday routines,
+                        special occasions, and everything
+                        in between.
+
+                    </p>
+
+
+                    <p>
+
+                        Rosé Beauty's goal is simple: to make beauty
+                        feel enjoyable, comfortable,
+                        and personal.
+
+                    </p>
+
+
+                    <a href="#products" class="text-link">
+
+                        Explore our collection →
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= SHOP ================= -->
+
+        <section id="products" class="products section">
+
+
+            <!-- SHOP HEADER -->
+
+            <div class="products-heading">
+
+
+                <div class="section-heading left">
+
+                    <span>
+                        SHOP OUR COLLECTION
+                    </span>
+
+                    <h2>
+                        Find your favorites.
+                    </h2>
+
+                </div>
+
+
+                <p>
+
+                    Choose a category below and
+                    discover your beauty essentials.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- CATEGORY TITLE -->
+
+            <div class="category-title">
+
+                <span>
+                    SHOP BY CATEGORY
+                </span>
+
+                <h3>
+                    What are you looking for?
+                </h3>
+
+            </div>
+
+
+
+            <!-- CATEGORY CARDS -->
+
+            <div class="category-grid">
+
+
+                <!-- LIPS -->
+
+                <div
+                    class="category-card"
+                    onclick="showCategory('LIPS')"
+                >
+
+                    <img
+                        src="images/lips.jpg"
+                        alt="Lip products"
+                    >
+
+                    <div class="category-overlay">
+
+                        <span>
+                            SHOP
+                        </span>
+
+                        <h3>
+                            Lips
+                        </h3>
+
+                        <small>
+                            Lipsticks • Tint • Gloss
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- FACE -->
+
+                <div
+                    class="category-card"
+                    onclick="showCategory('FACE')"
+                >
+
+                    <img
+                        src="images/face.jpg"
+                        alt="Face makeup"
+                    >
+
+                    <div class="category-overlay">
+
+                        <span>
+                            SHOP
+                        </span>
+
+                        <h3>
+                            Face
+                        </h3>
+
+                        <small>
+                            Foundation • Concealer • Powder
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- EYES -->
+
+                <div
+                    class="category-card"
+                    onclick="showCategory('EYES')"
+                >
+
+                    <img
+                        src="images/eyes.jpg"
+                        alt="Eye makeup"
+                    >
+
+                    <div class="category-overlay">
+
+                        <span>
+                            SHOP
+                        </span>
+
+                        <h3>
+                            Eyes
+                        </h3>
+
+                        <small>
+                            Mascara • Palette • Liner
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- CHEEKS -->
+
+                <div
+                    class="category-card"
+                    onclick="showCategory('CHEEKS')"
+                >
+
+                    <img
+                        src="images/cheeks.jpg"
+                        alt="Cheek makeup"
+                    >
+
+                    <div class="category-overlay">
+
+                        <span>
+                            SHOP
+                        </span>
+
+                        <h3>
+                            Cheeks
+                        </h3>
+
+                        <small>
+                            Blush • Bronzer • Highlighter
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ALL PRODUCTS -->
+
+            <div class="all-products-box">
+
+                <button
+                    class="all-products-btn"
+                    onclick="showCategory('ALL')"
+                >
+
+                    VIEW ALL PRODUCTS →
+
+                </button>
+
+            </div>
+
+
+
+            <!-- PRODUCT AREA -->
+
+            <div id="productArea">
+
+
+                <div class="product-area-header">
+
+
+                    <div>
+
+                        <span id="selectedCategory">
+                            ALL PRODUCTS
+                        </span>
+
+                        <h3 id="categoryProductTitle">
+                            All Products
+                        </h3>
+
+                    </div>
+
+
+
+                    <button
+                        class="back-button"
+                        onclick="backToCategories()"
+                    >
+
+                        ← Back to Categories
+
+                    </button>
+
+
+                </div>
+
+
+
+                <div class="product-grid">
+
+
+                    <!-- ================= LIPS ================= -->
+
+
+                    <!-- Rosé Lip Tint -->
+
+                    <article
+                        class="product-card"
+                        data-category="LIPS"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge">
+                                BEST SELLER
+                            </span>
+
+                            <img
+                                src="images/LIP Balm.jpg"
+                                alt="Rosé Tinted Lip Balm"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Rosé Tinted Lip Balm')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                LIPS
+                            </span>
+
+                            <h3>
+                                Tinted Lip Balm
+                            </h3>
+
+                            <p>
+
+                                Lightweight color with a soft,
+                                natural-looking finish.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (24)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱299
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Velvet Lipstick -->
+
+                    <article
+                        class="product-card"
+                        data-category="LIPS"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge sale">
+                                SALE
+                            </span>
+
+                            <img
+                                src="images/lipstick.jpg"
+                                alt="Velvet Lipstick"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Velvet Lipstick')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                LIPS
+                            </span>
+
+                            <h3>
+                                Lipstick
+                            </h3>
+
+                            <p>
+
+                                Smooth color with a comfortable
+                                soft velvet finish.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (22)
+                                    </span>
+
+                                </div>
+
+
+                                <div>
+
+                                    <del>
+                                        ₱429
+                                    </del>
+
+                                    <strong>
+                                        ₱379
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Rose Lip Gloss -->
+
+                    <article
+                        class="product-card"
+                        data-category="LIPS"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge new">
+                                NEW
+                            </span>
+
+                            <img
+                                src="images/lipgloss.png"
+                                alt="Rose Lip Gloss"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Rose Lip Gloss')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                LIPS
+                            </span>
+
+                            <h3>
+                                Lip Gloss
+                            </h3>
+
+                            <p>
+
+                                A glossy finish that gives your
+                                lips a soft rosy shine.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (19)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱329
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- ================= FACE ================= -->
+
+
+                    <!-- Foundation -->
+
+                    <article
+                        class="product-card"
+                        data-category="FACE"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge">
+                                FAVORITE
+                            </span>
+
+                            <img
+                                src="images/foundation.png"
+                                alt="Natural Glow Foundation"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Natural Glow Foundation')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                FACE
+                            </span>
+
+                            <h3>
+                                Natural Glow Foundation
+                            </h3>
+
+                            <p>
+
+                                Lightweight coverage with a
+                                smooth natural finish.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (31)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱599
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Concealer -->
+
+                    <article
+                        class="product-card"
+                        data-category="FACE"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge new">
+                                NEW
+                            </span>
+
+                            <img
+                                src="images/concealer.avif"
+                                alt="Daily Concealer"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Daily Concealer')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                FACE
+                            </span>
+
+                            <h3>
+                                Daily Concealer
+                            </h3>
+
+                            <p>
+
+                                Buildable coverage for an
+                                even-looking complexion.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (21)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱399
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Setting Powder -->
+
+                    <article
+                        class="product-card"
+                        data-category="FACE"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge">
+                                FAVORITE
+                            </span>
+
+                            <img
+                                src="images/powder.png"
+                                alt="Soft Setting Powder"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Soft Setting Powder')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                FACE
+                            </span>
+
+                            <h3>
+                                Setting Powder
+                            </h3>
+
+                            <p>
+
+                                A lightweight powder for a
+                                smooth everyday finish.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (26)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱449
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- ================= EYES ================= -->
+
+
+                    <!-- Mascara -->
+
+                    <article
+                        class="product-card"
+                        data-category="EYES"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge new">
+                                NEW
+                            </span>
+
+                            <img
+                                src="images/mascara.png"
+                                alt="Everyday Mascara"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Everyday Mascara')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                EYES
+                            </span>
+
+                            <h3>
+                                Everyday Mascara
+                            </h3>
+
+                            <p>
+
+                                Define your lashes with an
+                                easy everyday formula.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (16)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱399
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Eyeshadow Palette -->
+
+                    <article
+                        class="product-card"
+                        data-category="EYES"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge">
+                                FAVORITE
+                            </span>
+
+                            <img
+                                src="images/eyeshadow.jpg"
+                                alt="Eye Shadow Palette"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Soft Glam Palette')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                EYES
+                            </span>
+
+                            <h3>
+                                Eyeshadow Palette
+                            </h3>
+
+                            <p>
+
+                                Soft neutral shades for effortless
+                                everyday looks.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (27)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱499
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Eyeliner -->
+
+                    <article
+                        class="product-card"
+                        data-category="EYES"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge">
+                                NEW
+                            </span>
+
+                            <img
+                                src="images/eyeliner.png"
+                                alt="Eyeliner"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Soft Brown Eyeliner')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                EYES
+                            </span>
+
+                            <h3>
+                                Eyeliner
+                            </h3>
+
+                            <p>
+
+                                Smooth and easy-to-use liner
+                                for natural definition.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (14)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱279
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- ================= CHEEKS ================= -->
+
+
+                    <!-- Soft Pink Blush -->
+
+                    <article
+                        class="product-card"
+                        data-category="CHEEKS"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge new">
+                                NEW
+                            </span>
+
+                            <img
+                                src="images/blush.jpg"
+                                alt="Blush"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Soft Pink Blush')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                CHEEKS
+                            </span>
+
+                            <h3>
+                                Blush
+                            </h3>
+
+                            <p>
+
+                                A soft flush of pink for a fresh,
+                                natural glow.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (18)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱349
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Rose Cream Blush -->
+
+                    <article
+                        class="product-card"
+                        data-category="CHEEKS"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge">
+                                FAVORITE
+                            </span>
+
+                            <img
+                                src="images/bronzer.jpg"
+                                alt="Powder Bronzer"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Rose Cream Blush')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                CHEEKS
+                            </span>
+
+                            <h3>
+                                Bronzer
+                            </h3>
+
+                            <p>
+
+                                Creamy blush that blends easily
+                                for a soft rosy finish.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (25)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱379
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Highlighter -->
+
+                    <article
+                        class="product-card"
+                        data-category="CHEEKS"
+                    >
+
+                        <div class="product-photo">
+
+                            <span class="badge new">
+                                NEW
+                            </span>
+
+                            <img
+                                src="images/highlighter.jpg"
+                                alt="Soft Glow Highlighter"
+                            >
+
+                            <button
+                                class="quick-add"
+                                onclick="addToCart('Soft Glow Highlighter')"
+                            >
+
+                                + Add to Bag
+
+                            </button>
+
+                        </div>
+
+
+
+                        <div class="product-details">
+
+                            <span class="product-category">
+                                CHEEKS
+                            </span>
+
+                            <h3>
+                                Soft Glow Highlighter
+                            </h3>
+
+                            <p>
+
+                                A subtle glow for a naturally
+                                radiant finish.
+
+                            </p>
+
+
+                            <div class="product-footer">
+
+                                <div class="rating">
+
+                                    ★★★★★
+
+                                    <span>
+                                        (20)
+                                    </span>
+
+                                </div>
+
+
+                                <strong>
+                                    ₱429
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PROMO ================= -->
+
+        <section class="promo">
+
+            <div class="promo-content">
+
+                <span>
+                    YOUR EVERYDAY BEAUTY ESSENTIALS
+                </span>
+
+                <h2>
+
+                    A little pink,
+
+                    <br>
+
+                    a lot of confidence.
+
+                </h2>
+
+                <a href="#products" class="white-btn">
+                    Shop Now
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= SIGN IN ================= -->
+
+        <section id="signin" class="account-section">
+
+
+            <div class="account-box">
+
+
+                <div class="account-side">
+
+                    <span>
+                        WELCOME BACK
+                    </span>
+
+                    <h2>
+
+                        Good to see
+                        <em>you.</em>
+
+                    </h2>
+
+                    <p>
+
+                        Sign in to continue your
+                        Rosé Beauty experience.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="form-area">
+
+                    <h3>
+                        Sign In
+                    </h3>
+
+                    <p class="form-subtitle">
+                        Enter your account details below.
+                    </p>
+
+
+
+                    <form onsubmit="return validateSignIn()">
+
+
+                        <label>
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="loginEmail"
+                            placeholder="you@example.com"
+                        >
+
+
+                        <label>
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="loginPassword"
+                            placeholder="Enter your password"
+                        >
+
+
+                        <p
+                            id="loginMessage"
+                            class="form-message">
+                        </p>
+
+
+                        <button
+                            type="submit"
+                            class="form-button"
+                        >
+                            Sign In
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= SIGN UP ================= -->
+
+        <section
+            id="signup"
+            class="account-section pink-bg"
+        >
+
+
+            <div class="account-box reverse">
+
+
+                <div class="account-side">
+
+                    <span>
+                        JOIN ROSÉ BEAUTY
+                    </span>
+
+                    <h2>
+
+                        Your beauty
+                        <em>starts here.</em>
+
+                    </h2>
+
+                    <p>
+
+                        Create an account and become
+                        part of our beauty community.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="form-area">
+
+                    <h3>
+                        Create Account
+                    </h3>
+
+                    <p class="form-subtitle">
+                        Fill in the information below.
+                    </p>
+
+
+
+                    <form onsubmit="return validateSignUp()">
+
+
+                        <label>
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="fullName"
+                            placeholder="Your full name"
+                        >
+
+
+                        <label>
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="signupEmail"
+                            placeholder="you@example.com"
+                        >
+
+
+                        <label>
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="signupPassword"
+                            placeholder="Create a password"
+                        >
+
+
+                        <label>
+                            Confirm Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="confirmPassword"
+                            placeholder="Confirm your password"
+                        >
+
+
+                        <p
+                            id="signupMessage"
+                            class="form-message">
+                        </p>
+
+
+                        <button
+                            type="submit"
+                            class="form-button"
+                        >
+                            Create Account
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= INQUIRY ================= -->
+
+        <section
+            id="inquiry"
+            class="inquiry-section"
+        >
+
+
+            <div class="inquiry-heading">
+
+                <span>
+                    LET'S TALK
+                </span>
+
+                <h2>
+
+                    Have a question?
+                    <em>We're here.</em>
+
+                </h2>
+
+                <p>
+
+                    Send us an inquiry and we'll be
+                    happy to assist you.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="inquiry-box">
+
+
+                <form onsubmit="return validateInquiry()">
+
+
+                    <div class="two-inputs">
+
+
+                        <div>
+
+                            <label>
+                                Your Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="inquiryName"
+                                placeholder="Enter your name"
+                            >
+
+                        </div>
+
+
+
+                        <div>
+
+                            <label>
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="inquiryEmail"
+                                placeholder="you@example.com"
+                            >
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <label>
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="inquirySubject"
+                        placeholder="What can we help you with?"
+                    >
+
+
+                    <label>
+                        Your Message
+                    </label>
+
+                    <textarea
+                        id="inquiryMessage"
+                        rows="6"
+                        placeholder="Write your inquiry here..."
+                    ></textarea>
+
+
+                    <p
+                        id="inquiryStatus"
+                        class="form-message">
+                    </p>
+
+
+                    <button
+                        type="submit"
+                        class="form-button"
+                    >
+                        Send Inquiry →
+                    </button>
+
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= NEWSLETTER ================= -->
+
+        <section class="newsletter">
+
+
+            <div>
+
+                <span>
+                    STAY IN THE KNOW
+                </span>
+
+                <h2>
+
+                    Beauty notes,
+                    <em>straight to you.</em>
+
+                </h2>
+
+            </div>
+
+
+
+            <form class="newsletter-form">
+
+                <input
+                    type="email"
+                    placeholder="Your email address"
+                >
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+
+        <div class="footer-top">
+
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    Rosé<span>Beauty</span>
+                </a>
+
+                <p>
+                    Simple beauty for every version of you.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    SHOP
+                </h4>
+
+
+                <a
+                    href="#products"
+                    onclick="showCategory('LIPS')"
+                >
+                    Lips
+                </a>
+
+
+                <a
+                    href="#products"
+                    onclick="showCategory('FACE')"
+                >
+                    Face
+                </a>
+
+
+                <a
+                    href="#products"
+                    onclick="showCategory('EYES')"
+                >
+                    Eyes
+                </a>
+
+
+                <a
+                    href="#products"
+                    onclick="showCategory('CHEEKS')"
+                >
+                    Cheeks
+                </a>
+
+
+                <a
+                    href="#products"
+                    onclick="showCategory('ALL')"
+                >
+                    All Products
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    ABOUT
+                </h4>
+
+
+                <a href="#about">
+                    Our Story
+                </a>
+
+
+                <a href="#inquiry">
+                    Contact
+                </a>
+
+
+                <a href="#inquiry">
+                    Inquiry
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    ACCOUNT
+                </h4>
+
+
+                <a href="#signin">
+                    Sign In
+                </a>
+
+
+                <a href="#signup">
+                    Sign Up
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Rosé Beauty. All Rights Reserved.
+            </span>
+
+            <span>
+                Made with ♡
+            </span>
+
+        </div>
+
+
+    </footer>
+
+
+
+    <!-- External JavaScript -->
+
+    <script src="ecommerce.js"></script>
+
+
+</body>
+
+</html>
